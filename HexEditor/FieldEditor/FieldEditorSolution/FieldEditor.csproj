@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{07D33A69-29A7-4BFA-AACD-4C2B80F80411}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FieldEditor</RootNamespace>
+    <AssemblyName>FieldEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <Win32Resource>
+    </Win32Resource>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LS11DotNet, Version=1.0.5197.34910, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\LS11DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FieldCheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldClearButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldJapanMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldOneMapImportExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldSaveAndLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldSaveAllConnectMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldTipBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldTipImageCache.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldHexPictureBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FieldUndo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <EmbeddedResource Include="images\map\select_waku.png" />
+    <EmbeddedResource Include="images\role\00.png" />
+    <EmbeddedResource Include="images\role\01.png" />
+    <EmbeddedResource Include="images\role\02.png" />
+    <EmbeddedResource Include="images\role\03.png" />
+    <EmbeddedResource Include="images\role\04.png" />
+    <EmbeddedResource Include="images\role\05.png" />
+    <EmbeddedResource Include="images\role\06.png" />
+    <EmbeddedResource Include="images\role\07.png" />
+    <EmbeddedResource Include="images\role\08.png" />
+    <EmbeddedResource Include="images\role\09.png" />
+    <EmbeddedResource Include="images\role\0A.png" />
+    <EmbeddedResource Include="images\role\0B.png" />
+    <EmbeddedResource Include="images\role\0C.png" />
+    <EmbeddedResource Include="images\ride\E8.png" />
+    <EmbeddedResource Include="images\ride\E9.png" />
+    <EmbeddedResource Include="images\ride\EA.png" />
+    <EmbeddedResource Include="images\ride\EB.png" />
+    <EmbeddedResource Include="images\ride\EC.png" />
+    <EmbeddedResource Include="images\ride\ED.png" />
+    <EmbeddedResource Include="images\ride\EE.png" />
+    <EmbeddedResource Include="images\ride\FF.png" />
+    <EmbeddedResource Include="images\edge\70.png" />
+    <EmbeddedResource Include="images\edge\71.png" />
+    <EmbeddedResource Include="images\edge\72.png" />
+    <EmbeddedResource Include="images\edge\73.png" />
+    <EmbeddedResource Include="images\edge\74.png" />
+    <EmbeddedResource Include="images\edge\75.png" />
+    <EmbeddedResource Include="images\edge\76.png" />
+    <EmbeddedResource Include="images\edge\77.png" />
+    <EmbeddedResource Include="images\edge\78.png" />
+    <EmbeddedResource Include="images\edge\79.png" />
+    <EmbeddedResource Include="images\edge\7A.png" />
+    <EmbeddedResource Include="images\edge\7B.png" />
+    <EmbeddedResource Include="images\edge\7C.png" />
+    <EmbeddedResource Include="images\edge\7D.png" />
+    <EmbeddedResource Include="images\edge\7E.png" />
+    <EmbeddedResource Include="images\edge\7F.png" />
+    <EmbeddedResource Include="images\edge\80.png" />
+    <EmbeddedResource Include="images\edge\81.png" />
+    <EmbeddedResource Include="images\edge\82.png" />
+    <EmbeddedResource Include="images\edge\83.png" />
+    <EmbeddedResource Include="images\edge\84.png" />
+    <EmbeddedResource Include="images\edge\85.png" />
+    <EmbeddedResource Include="images\edge\86.png" />
+    <EmbeddedResource Include="images\edge\87.png" />
+    <EmbeddedResource Include="images\edge\88.png" />
+    <EmbeddedResource Include="images\edge\89.png" />
+    <EmbeddedResource Include="images\edge\8A.png" />
+    <EmbeddedResource Include="images\edge\8B.png" />
+    <EmbeddedResource Include="images\edge\8C.png" />
+    <EmbeddedResource Include="images\edge\8D.png" />
+    <EmbeddedResource Include="images\edge\8E.png" />
+    <EmbeddedResource Include="images\edge\8F.png" />
+    <EmbeddedResource Include="images\edge\90.png" />
+    <EmbeddedResource Include="images\edge\91.png" />
+    <EmbeddedResource Include="images\edge\92.png" />
+    <EmbeddedResource Include="images\edge\93.png" />
+    <EmbeddedResource Include="images\edge\94.png" />
+    <EmbeddedResource Include="images\edge\95.png" />
+    <EmbeddedResource Include="images\edge\96.png" />
+    <EmbeddedResource Include="images\edge\97.png" />
+    <EmbeddedResource Include="images\edge\98.png" />
+    <EmbeddedResource Include="images\edge\99.png" />
+    <EmbeddedResource Include="images\edge\9A.png" />
+    <EmbeddedResource Include="images\edge\9B.png" />
+    <EmbeddedResource Include="images\edge\9C.png" />
+    <EmbeddedResource Include="images\edge\9D.png" />
+    <EmbeddedResource Include="images\edge\9E.png" />
+    <EmbeddedResource Include="images\edge\9F.png" />
+    <EmbeddedResource Include="images\edge\A0.png" />
+    <EmbeddedResource Include="images\edge\A2.png" />
+    <EmbeddedResource Include="images\edge\A3.png" />
+    <EmbeddedResource Include="images\edge\A4.png" />
+    <EmbeddedResource Include="images\edge\A7.png" />
+    <EmbeddedResource Include="images\edge\A8.png" />
+    <EmbeddedResource Include="images\edge\A9.png" />
+    <EmbeddedResource Include="images\edge\AB.png" />
+    <EmbeddedResource Include="images\edge\AC.png" />
+    <EmbeddedResource Include="images\edge\AD.png" />
+    <EmbeddedResource Include="images\edge\AE.png" />
+    <EmbeddedResource Include="images\edge\AF.png" />
+    <EmbeddedResource Include="images\edge\B0.png" />
+    <EmbeddedResource Include="images\edge\B1.png" />
+    <EmbeddedResource Include="images\edge\B2.png" />
+    <EmbeddedResource Include="images\edge\B3.png" />
+    <EmbeddedResource Include="images\edge\B4.png" />
+    <EmbeddedResource Include="images\edge\B5.png" />
+    <EmbeddedResource Include="images\edge\B6.png" />
+    <EmbeddedResource Include="images\edge\B7.png" />
+    <EmbeddedResource Include="images\edge\B8.png" />
+    <EmbeddedResource Include="images\edge\B9.png" />
+    <EmbeddedResource Include="images\edge\BA.png" />
+    <EmbeddedResource Include="images\edge\BB.png" />
+    <EmbeddedResource Include="images\edge\BC.png" />
+    <EmbeddedResource Include="images\edge\BD.png" />
+    <EmbeddedResource Include="images\edge\BE.png" />
+    <EmbeddedResource Include="images\edge\BF.png" />
+    <EmbeddedResource Include="images\edge\C1.png" />
+    <EmbeddedResource Include="images\edge\C2.png" />
+    <EmbeddedResource Include="images\edge\C3.png" />
+    <EmbeddedResource Include="images\edge\C4.png" />
+    <EmbeddedResource Include="images\edge\C5.png" />
+    <EmbeddedResource Include="images\edge\C6.png" />
+    <EmbeddedResource Include="images\edge\C8.png" />
+    <EmbeddedResource Include="images\edge\C9.png" />
+    <EmbeddedResource Include="images\edge\CA.png" />
+    <EmbeddedResource Include="images\edge\CB.png" />
+    <EmbeddedResource Include="images\edge\CC.png" />
+    <EmbeddedResource Include="images\edge\CD.png" />
+    <EmbeddedResource Include="images\edge\CE.png" />
+    <EmbeddedResource Include="images\edge\CF.png" />
+    <EmbeddedResource Include="images\edge\D0.png" />
+    <EmbeddedResource Include="images\edge\D1.png" />
+    <EmbeddedResource Include="images\edge\D2.png" />
+    <EmbeddedResource Include="images\edge\D3.png" />
+    <EmbeddedResource Include="images\edge\D4.png" />
+    <EmbeddedResource Include="images\edge\D7.png" />
+    <EmbeddedResource Include="images\edge\D8.png" />
+    <EmbeddedResource Include="images\edge\DA.png" />
+    <EmbeddedResource Include="images\edge\DB.png" />
+    <EmbeddedResource Include="images\edge\DC.png" />
+    <EmbeddedResource Include="images\edge\DD.png" />
+    <EmbeddedResource Include="images\edge\DE.png" />
+    <EmbeddedResource Include="images\edge\DF.png" />
+    <EmbeddedResource Include="images\edge\E0.png" />
+    <EmbeddedResource Include="images\edge\E1.png" />
+    <EmbeddedResource Include="images\edge\E2.png" />
+    <EmbeddedResource Include="images\edge\E3.png" />
+    <EmbeddedResource Include="images\edge\E4.png" />
+    <EmbeddedResource Include="images\edge\E5.png" />
+    <EmbeddedResource Include="images\edge\E6.png" />
+    <EmbeddedResource Include="images\edge\E7.png" />
+    <EmbeddedResource Include="images\edge\FF.png" />
+    <EmbeddedResource Include="images\base\00.png" />
+    <EmbeddedResource Include="images\base\01.png" />
+    <EmbeddedResource Include="images\base\02.png" />
+    <EmbeddedResource Include="images\base\03.png" />
+    <EmbeddedResource Include="images\base\04.png" />
+    <EmbeddedResource Include="images\base\0F.png" />
+    <EmbeddedResource Include="images\base\10.png" />
+    <EmbeddedResource Include="images\base\11.png" />
+    <EmbeddedResource Include="images\base\12.png" />
+    <EmbeddedResource Include="images\base\13.png" />
+    <EmbeddedResource Include="images\base\14.png" />
+    <EmbeddedResource Include="images\base\15.png" />
+    <EmbeddedResource Include="images\base\16.png" />
+    <EmbeddedResource Include="images\base\17.png" />
+    <EmbeddedResource Include="images\base\18.png" />
+    <EmbeddedResource Include="images\base\19.png" />
+    <EmbeddedResource Include="images\base\1A.png" />
+    <EmbeddedResource Include="images\base\1B.png" />
+    <EmbeddedResource Include="images\base\1C.png" />
+    <EmbeddedResource Include="images\base\1D.png" />
+    <EmbeddedResource Include="images\base\1E.png" />
+    <EmbeddedResource Include="images\base\1F.png" />
+    <EmbeddedResource Include="images\base\20.png" />
+    <EmbeddedResource Include="images\base\21.png" />
+    <EmbeddedResource Include="images\base\22.png" />
+    <EmbeddedResource Include="images\base\23.png" />
+    <EmbeddedResource Include="images\base\24.png" />
+    <EmbeddedResource Include="images\base\25.png" />
+    <EmbeddedResource Include="images\base\26.png" />
+    <EmbeddedResource Include="images\base\27.png" />
+    <EmbeddedResource Include="images\base\28.png" />
+    <EmbeddedResource Include="images\base\29.png" />
+    <EmbeddedResource Include="images\base\2A.png" />
+    <EmbeddedResource Include="images\base\2B.png" />
+    <EmbeddedResource Include="images\base\2C.png" />
+    <EmbeddedResource Include="images\base\2D.png" />
+    <EmbeddedResource Include="images\base\2E.png" />
+    <EmbeddedResource Include="images\base\30.png" />
+    <EmbeddedResource Include="images\base\31.png" />
+    <EmbeddedResource Include="images\base\32.png" />
+    <EmbeddedResource Include="images\base\33.png" />
+    <EmbeddedResource Include="images\base\34.png" />
+    <EmbeddedResource Include="images\base\35.png" />
+    <EmbeddedResource Include="images\base\36.png" />
+    <EmbeddedResource Include="images\base\37.png" />
+    <EmbeddedResource Include="images\base\38.png" />
+    <EmbeddedResource Include="images\base\39.png" />
+    <EmbeddedResource Include="images\base\3A.png" />
+    <EmbeddedResource Include="images\base\3B.png" />
+    <EmbeddedResource Include="images\base\3C.png" />
+    <EmbeddedResource Include="images\base\3D.png" />
+    <EmbeddedResource Include="images\base\3E.png" />
+    <EmbeddedResource Include="images\base\3F.png" />
+    <EmbeddedResource Include="images\base\40.png" />
+    <EmbeddedResource Include="images\base\41.png" />
+    <EmbeddedResource Include="images\base\42.png" />
+    <EmbeddedResource Include="images\base\43.png" />
+    <EmbeddedResource Include="images\base\44.png" />
+    <EmbeddedResource Include="images\base\45.png" />
+    <EmbeddedResource Include="images\base\46.png" />
+    <EmbeddedResource Include="images\base\47.png" />
+    <EmbeddedResource Include="images\base\48.png" />
+    <EmbeddedResource Include="images\base\49.png" />
+    <EmbeddedResource Include="images\base\4A.png" />
+    <EmbeddedResource Include="images\base\4B.png" />
+    <EmbeddedResource Include="images\base\4C.png" />
+    <EmbeddedResource Include="images\base\4D.png" />
+    <EmbeddedResource Include="images\base\4E.png" />
+    <EmbeddedResource Include="images\base\4F.png" />
+    <EmbeddedResource Include="images\base\50.png" />
+    <EmbeddedResource Include="images\base\51.png" />
+    <EmbeddedResource Include="images\base\52.png" />
+    <EmbeddedResource Include="images\base\53.png" />
+    <EmbeddedResource Include="images\base\54.png" />
+    <EmbeddedResource Include="images\base\55.png" />
+    <EmbeddedResource Include="images\base\56.png" />
+    <EmbeddedResource Include="images\base\57.png" />
+    <EmbeddedResource Include="images\base\58.png" />
+    <EmbeddedResource Include="images\base\59.png" />
+    <EmbeddedResource Include="images\base\5A.png" />
+    <EmbeddedResource Include="images\base\5B.png" />
+    <EmbeddedResource Include="images\base\5C.png" />
+    <EmbeddedResource Include="images\base\5D.png" />
+    <EmbeddedResource Include="images\base\5E.png" />
+    <EmbeddedResource Include="images\base\5F.png" />
+    <EmbeddedResource Include="images\base\60.png" />
+    <EmbeddedResource Include="images\base\61.png" />
+    <EmbeddedResource Include="images\base\62.png" />
+    <EmbeddedResource Include="images\base\63.png" />
+    <EmbeddedResource Include="images\base\64.png" />
+    <EmbeddedResource Include="images\base\65.png" />
+    <EmbeddedResource Include="images\base\66.png" />
+    <EmbeddedResource Include="images\base\67.png" />
+    <EmbeddedResource Include="images\base\68.png" />
+    <EmbeddedResource Include="images\base\69.png" />
+    <EmbeddedResource Include="images\base\6A.png" />
+    <EmbeddedResource Include="images\base\6B.png" />
+    <EmbeddedResource Include="images\base\6C.png" />
+    <EmbeddedResource Include="images\base\6D.png" />
+    <EmbeddedResource Include="images\base\6F.png" />
+    <EmbeddedResource Include="images\base\FF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FieldForm.resx">
+      <DependentUpon>FieldForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

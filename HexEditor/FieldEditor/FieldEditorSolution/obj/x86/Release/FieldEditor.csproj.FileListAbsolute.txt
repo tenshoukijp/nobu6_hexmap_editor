@@ -1,0 +1,10 @@
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\FieldEditor\FieldEditorSolution\bin\x86\Release\FieldEditor.exe
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\FieldEditor\FieldEditorSolution\bin\x86\Release\LS11DotNet.dll
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\FieldEditor\FieldEditorSolution\obj\x86\Release\FieldEditor.csprojResolveAssemblyReference.cache
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\FieldEditor\FieldEditorSolution\obj\x86\Release\FieldViewerForm.resources
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\FieldEditor\FieldEditorSolution\obj\x86\Release\FieldEditor.Properties.Resources.resources
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\FieldEditor\FieldEditorSolution\obj\x86\Release\FieldEditor.csproj.GenerateResource.Cache
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\FieldEditor\FieldEditorSolution\obj\x86\Release\FieldEditor.exe
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\FieldEditor\FieldEditorSolution\bin\x86\Release\FieldEditor.exe.config
+D:\usr\koei\tenshouki95\dllwrap\HexEditor\FieldEditor\FieldEditorSolution\bin\x86\Release\FieldEditor.exe.config
+D:\usr\koei\tenshouki95\dllwrap\HexEditor\FieldEditor\FieldEditorSolution\obj\x86\Release\FieldEditor.exe

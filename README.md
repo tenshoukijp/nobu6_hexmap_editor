@@ -1,2 +1,7 @@
-# nobu6_hexmap_editor
-天翔記 - ツール - ヘックスマップエディタ (野戦ヘックスエディタ・城ヘックスエディタ)
+# 天翔記 - ツール - ヘックスマップエディタ
+
+![天翔記](https://img.shields.io/badge/天翔記-with_PK-6479ff.svg)
+![攻城戦エディタ](https://img.shields.io/badge/Sakura-1.0.2.0-6479ff.svg)
+![野戦エディタ](https://img.shields.io/badge/Sakura-1.0.0.8-6479ff.svg)
+
+https://天翔記.jp/?page=nobu_mod_the_hexmap_editor

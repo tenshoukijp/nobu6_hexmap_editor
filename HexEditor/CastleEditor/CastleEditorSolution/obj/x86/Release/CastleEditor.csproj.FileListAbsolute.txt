@@ -1,0 +1,9 @@
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\CastleEditor\CastleEditorSolution\bin\x86\Release\CastleEditor.exe.config
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\CastleEditor\CastleEditorSolution\bin\x86\Release\CastleEditor.exe
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\CastleEditor\CastleEditorSolution\bin\x86\Release\LS11DotNet.dll
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\CastleEditor\CastleEditorSolution\obj\x86\Release\CastleViewerForm.resources
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\CastleEditor\CastleEditorSolution\obj\x86\Release\CastleEditor.csproj.GenerateResource.Cache
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\CastleEditor\CastleEditorSolution\obj\x86\Release\CastleEditor.exe
+C:\usr\koei\Tenshouki95\dllwrap\HexEditor\CastleEditor\CastleEditorSolution\obj\x86\Release\CastleEditor.csprojResolveAssemblyReference.cache
+D:\usr\koei\tenshouki95\dllwrap\HexEditor\CastleEditor\CastleEditorSolution\bin\x86\Release\CastleEditor.exe.config
+D:\usr\koei\tenshouki95\dllwrap\HexEditor\CastleEditor\CastleEditorSolution\obj\x86\Release\CastleEditor.exe
